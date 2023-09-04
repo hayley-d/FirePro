@@ -1,0 +1,13 @@
+.list-group{
+  width:70%;
+  background-color: #222222;
+}
+.item-list{
+  background-color: black;
+  color: white;
+}
+.item-list:hover{
+  background-color: orangered;
+  color: white;
+}
+

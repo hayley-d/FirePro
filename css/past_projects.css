@@ -1,0 +1,34 @@
+.card {
+  background-image: url('https://5.imimg.com/data5/SELLER/Default/2022/9/BN/PI/CO/108627375/fire-hydrant-system-installation-service-500x500.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.col{
+  height:300px;
+}
+
+#card2{
+  background-image: url("https://fire-engineer.com.au/wp-content/uploads/2018/06/Wharf-1-Port-of-Mackay-Fire-Engineering-solutions-1-1-750x750.jpg");
+}
+
+#card3
+{
+  background-image: url("https://cdn.godrej.com/img/Product/637216341959873851_Fire%20Fighting-Pro8.jpg");
+}
+
+#card4{
+  background-image: url("https://www.gielle.it/wp-content/uploads/2023/05/deluge-system.jpg?x33704");
+}
+
+#card5
+{
+  background-image: url("https://blog.koorsen.com/hs-fs/hubfs/Fire%20Suppression%20System%20Equipment.jpg?width=1200&name=Fire%20Suppression%20System%20Equipment.jpg");
+}
+
+#card6
+{
+  background-image: url("https://www.mpwengineering.com/wp-content/uploads/2019/08/fire-system-components.jpg");
+}

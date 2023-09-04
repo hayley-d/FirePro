@@ -1,0 +1,174 @@
+.nav-item :hover{
+  color: orangered;
+  font-size: x-large;
+  /*border-bottom: 3px solid deepskyblue;*/
+  /*box-shadow-bottom: 0 0 10px 0 deepskyblue; !* Add a box shadow for the luminous effect *!*/
+}
+
+.navbar{
+  font-size: large;
+
+}
+
+.bar{
+  width:100%;
+  height:1vh;
+  background: linear-gradient(to right, deepskyblue, silver ,orangered); /* Define your gradient colors and direction */
+}
+
+.round-pic{
+  width:140px;
+  height:140px;
+  border-radius: 80px;
+
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+#round-pic-1{
+  background-image: url("../img/red_pipes.jpg");
+}
+
+#round-pic-2{
+  background-image: url("../img/man_and_pipes.png");
+}
+
+#round-pic-3{
+  background-image: url("../img/pipes1.png");
+}
+
+body{
+  background-color: black;
+}
+
+.test{
+  width:140px;
+  height:140px;
+  width:100%;
+  background-image: url("img/red_pipes.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+.btn-secondary:hover{
+  background-color: deepskyblue;
+  border: none;
+}
+
+#circles{
+  color: white;
+  font-weight: bold;
+}
+.heading-title{
+
+}
+
+.main-logo{
+  width: 100%;
+  height:300px;
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*.container{
+  display: flex;
+  gap:10px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}*/
+
+h1{
+  color: orange;
+}
+#grey-writing{
+  color: #cccccc;
+}
+
+#header{
+  background-color: black;
+  width: 100%;
+  height:700px;
+}
+
+.header-writing{
+  width: 100%;
+  height:100%;
+  background-image: url("../img/flame3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ /* background: linear-gradient(to bottom, black, black,deepskyblue ,deepskyblue);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty{
+  width:100%;
+  height:100px;
+}
+
+.container-fluid{
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#navbar{
+  background-color: white;
+}
+
+.pb-2{
+  color: white;
+}
+
+#hanging-icons{
+  color: white;
+}
+.btn-primary{
+  background-color: deepskyblue;
+  border: none;
+}
+
+ h3{
+  color: orangered;
+}
+
+svg{
+  background-color: orangered;
+  width:2em;
+  height:2em;
+  border: 5px solid orangered;
+  border-radius: 10px;
+}
+
+.icon-square{
+  background-color: orangered;
+}
+
+#sprinkler-img{
+  width: 700px;
+  height:500px;
+  background-image: url("https://accuro.at/files/loesungen/sprinklerloeschanlagen/Sprinklerzentrale-Verteiler.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#heros{
+  color: white;
+}
+
+.fw-bold{
+  color: orangered;
+}
