@@ -26,6 +26,10 @@ p{color: white}
   text-align: center;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 #pic1{
   background-image: url("https://www.arishtha.in/security/arishtha-c/uploads/2018/11/WEBSITE_htm_7a51feb07415e414.jpg");
   background-repeat: no-repeat;

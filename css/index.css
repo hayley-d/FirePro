@@ -33,11 +33,20 @@
 }
 
 #round-pic-2{
-  background-image: url("../img/man_and_pipes.png");
+  background-image: url("../img/water-supply.png");
 }
 
 #round-pic-3{
-  background-image: url("../img/pipes1.png");
+  background-image: url("../img/gas.png");
+}
+
+#round-pic-4{
+  background-image: url("../img/smoke-vent.png");
+}
+
+
+#round-pic-5{
+  background-image: url("../img/sprinkler.png");
 }
 
 body{
@@ -56,7 +65,7 @@ body{
 }
 
 .btn-secondary:hover{
-  background-color: deepskyblue;
+  background-color: darkorange;
   border: none;
 }
 
@@ -84,6 +93,9 @@ body{
   justify-content: center;
   align-items: center;
 }*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
 h1{
   color: orange;
@@ -98,7 +110,7 @@ h1{
   height:700px;
 }
 
-.header-writing{
+#header-writing{
   width: 100%;
   height:100%;
   background-image: url("../img/flame3.png");
@@ -109,6 +121,40 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  gap:30%;
+  padding:10px;
+}
+
+#header-writing span {
+  font-weight: bold;
+}
+
+#header-writing h2{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cont-2{
+  text-align: left;
+  font-size: large;
+}
+
+#cont-2 hr{
+  background-color: white;
+  border: 1px solid white;
+}
+
+#cont-1 hr{
+  background-color: white;
+  border: 1px solid white;
+}
+
+#cont-1{
+  text-align: center;
+  width:30%;
+  font-size: large;
 }
 
 .empty{
@@ -135,30 +181,32 @@ h1{
   color: white;
 }
 .btn-primary{
-  background-color: deepskyblue;
+  background-color: darkorange;
   border: none;
 }
 
  h3{
-  color: orangered;
+  color: darkorange;
+   font-weight: bold;
 }
 
 svg{
-  background-color: orangered;
+  background-color: darkorange;
   width:2em;
   height:2em;
-  border: 5px solid orangered;
+  border: 5px solid darkorange;
   border-radius: 10px;
 }
 
 .icon-square{
-  background-color: orangered;
+  background-color: darkorange;
+  border-radius: 10px;
 }
 
 #sprinkler-img{
   width: 700px;
   height:500px;
-  background-image: url("https://accuro.at/files/loesungen/sprinklerloeschanlagen/Sprinklerzentrale-Verteiler.jpg");
+  background-image: url("../img/system_value.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,5 +218,9 @@ svg{
 }
 
 .fw-bold{
-  color: orangered;
+  color: darkorange;
 }
+
+/*#hanging-icons .btn{
+  background-color: grey;
+}*/

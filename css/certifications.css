@@ -11,3 +11,48 @@
   color: white;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+#accred{
+  display: flex;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: white;
+}
+
+#asib{
+  background-image: url("../img/asib.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width:200px;
+  height:200px;
+}
+
+#bis{
+  background-image: url("../img/bsi.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width:200px;
+  height:200px;
+}
+
+#all{
+  background-image: url("../img/all.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width:200px;
+  height:200px;
+}
+
