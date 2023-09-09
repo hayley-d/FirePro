@@ -12,4 +12,34 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#header{
+    color:white;
+}
+
+.sprink{
+    width:100%;
+    height:225px
+}
+
+#sprink-1{
+    background-image: url("../img/water-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sprink-2{
+    background-image: url("../img/water-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sprink-3{
+    background-image: url("../img/water-3.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
