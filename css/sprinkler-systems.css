@@ -1,0 +1,16 @@
+.nav-item :hover{
+    color: orangered;
+    font-size: x-large;
+    /*border-bottom: 3px solid deepskyblue;*/
+    /*box-shadow-bottom: 0 0 10px 0 deepskyblue; !* Add a box shadow for the luminous effect *!*/
+}
+
+.navbar{
+    font-size: large;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
