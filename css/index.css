@@ -266,15 +266,11 @@ svg{
   color: darkorange;
 }
 
-#circles-center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+#circles{
+  margin-left:20%;
 }
-/*#hanging-icons .btn{
-  background-color: grey;
-}*/
+
+
 #navbar{
   width: 100%;
   background-color: black;
@@ -293,8 +289,8 @@ svg{
     padding:10px;
   }
   #circles{
-    margin-left:50px;
-    background-color: grey;
+    margin-left:20%;
+
   }
 }
 
@@ -305,7 +301,7 @@ svg{
     padding:10px;
   }
   #circles{
-    margin-left:50px;
+    margin-left:20%;
   }
 }
 
@@ -317,7 +313,7 @@ svg{
   }
 
   #circles{
-    margin-left:50px;
+    margin-left:20%;
   }
 }
 
@@ -334,6 +330,6 @@ svg{
   }
 
   #circles{
-    margin-left:50px;
+    margin-left:20%;
   }
 }
