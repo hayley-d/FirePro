@@ -7,8 +7,13 @@
 
 .navbar{
   font-size: large;
-background-color: darkorange;
+background-color: black;
+  color:white ;
 
+}
+
+.navbar a {
+  color:grey ;
 }
 
 #navbar{
@@ -101,6 +106,26 @@ body{
 body{
   font-family: 'Montserrat', sans-serif;
 
+}
+.btn-group button a {
+  text-decoration: none;
+  color: darkorange;
+}
+
+.btn-group button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+.btn-group button{
+  border: 1px solid darkorange;
+}
+
+.btn-group button:hover{
+  color: white;
+  background-color: darkorange;
+  border: none;
 }
 
 h1{
@@ -250,12 +275,26 @@ svg{
 /*#hanging-icons .btn{
   background-color: grey;
 }*/
+#navbar{
+  width: 100%;
+  background-color: black;
+  color: white;
+
+}
+
+.nav-item{
+  color: silver;
+}
 
 @media screen and (max-width: 480px) {
   #header-writing{
     flex-direction: column;
     gap:30%;
     padding:10px;
+  }
+  #circles{
+    margin-left:50px;
+    background-color: grey;
   }
 }
 
@@ -264,6 +303,9 @@ svg{
     flex-direction: column;
     gap:30%;
     padding:10px;
+  }
+  #circles{
+    margin-left:50px;
   }
 }
 
@@ -274,7 +316,7 @@ svg{
     padding:10px;
   }
 
-  #circles .col-lg-4{
+  #circles{
     margin-left:50px;
   }
 }
@@ -291,6 +333,7 @@ svg{
     height:400px;
   }
 
-
-
+  #circles{
+    margin-left:50px;
+  }
 }

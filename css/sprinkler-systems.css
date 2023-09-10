@@ -17,6 +17,7 @@ body{
 
 #header{
     color:white;
+    height:35vh;
 }
 
 .sprink{
@@ -43,3 +44,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*
+.container{
+    background-color: gray;
+}
+
+.album{
+    background-color: gray;
+}*/
