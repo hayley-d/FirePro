@@ -13,8 +13,6 @@ background-color: darkorange;
 
 #navbar{
   background-color: darkorange;
-}{
-
 }
 
 
@@ -115,7 +113,7 @@ h1{
 #header{
   background-color: black;
   width: 100%;
-  height:700px;
+  height:70vh;
 }
 
 #header-writing{
@@ -172,7 +170,7 @@ h1{
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  width:25%;
+  width:40%;
   font-size: large;
   height:400px;
 
@@ -243,6 +241,12 @@ svg{
   color: darkorange;
 }
 
+#circles-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 /*#hanging-icons .btn{
   background-color: grey;
 }*/
@@ -253,4 +257,40 @@ svg{
     gap:30%;
     padding:10px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  #header-writing{
+    flex-direction: column;
+    gap:30%;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #header-writing{
+    flex-direction: column;
+    gap:30%;
+    padding:10px;
+  }
+
+  #circles .col-lg-4{
+    margin-left:50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header-writing{
+    flex-direction: column;
+    gap:30%;
+    padding:10px;
+  }
+
+  #cont-3{
+    width:50%;
+    height:400px;
+  }
+
+
+
 }
